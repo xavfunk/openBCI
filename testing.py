@@ -10,6 +10,8 @@ sudo chmod a+rw /dev/ttyUSB0
 
 then, run:
 python3.8 testing.py --board-id 0 --serial-port /dev/ttyUSB0
+or python3 testing.py --board-id 0 --serial-port /dev/ttyUSB0
+
 
 board channels as found out with board.get_xy_channels
 
